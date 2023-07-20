@@ -1,2 +1,4 @@
 pass_gen/__pycache__/
+generator/__pycache__/
 venv/
+.idea/
