@@ -9,7 +9,6 @@ def home(request):
 
 
 def password(request):
-
     characters = list('abcdefghijklmnopqrstuvwxyz')
     upperChar = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
     numbers = list('0123456789')
@@ -27,6 +26,11 @@ def password(request):
     for x in range(length):
         thepassword += random.choice(characters)
     return render(request, 'password.html', {'password':thepassword})
+
+
+def about(request):
+    return render(request, 'about.html',)
+
 
 # def testpage(request):
 #     return HttpResponse('<h1>this is test page!</h1>')
