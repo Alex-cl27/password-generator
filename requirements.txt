@@ -1,6 +1,6 @@
 #hint:
 #$ pip3 install -r requirements.txt
-#$ pip3 freeze requirements.txt
+#$ pip3 freeze > requirements.txt
 
 asgiref==3.7.2
 Django==4.2.3
